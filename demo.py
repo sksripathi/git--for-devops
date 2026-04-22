@@ -1,8 +1,6 @@
 def myfunction():
-    a=2
-    b=c
+    a = 2
+    return a
 
-    return d
 
 myfunction()
-
