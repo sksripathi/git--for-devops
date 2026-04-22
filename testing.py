@@ -1,8 +1,10 @@
+"""Testing module used for lint checks."""
+
+
 def hello():
-    """
-    this is demo
-    """
+    """Return a simple greeting string."""
     return "hello world"
 
 
-hello()
+if __name__ == "__main__":
+    print(hello())

@@ -1,6 +1,11 @@
+"""Demo module used for lint checks."""
+
+
 def myfunction():
-    a = 2
-    return a
+    """Return a small demo integer value."""
+    value = 2
+    return value
 
 
-myfunction()
+if __name__ == "__main__":
+    print(myfunction())
